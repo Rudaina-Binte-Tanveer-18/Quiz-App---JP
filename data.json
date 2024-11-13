@@ -1,0 +1,25 @@
+{
+    "quizQuestions": {
+      "question1": {
+        "text": "What does 'DOM' stand for in JavaScript?",
+        "options": ["Document Object Model", "Data Object Mode", "Digital Object Management"],
+        "answer": "Document Object Model"
+      },
+      "question2": {
+        "text": "Which company developed JavaScript?",
+        "options": ["Netscape", "Microsoft", "Sun Microsystems"],
+        "answer": "Netscape"
+      },
+      "question3": {
+        "text": "What keyword is used to declare a constant in JavaScript?",
+        "options": ["var", "let", "const"],
+        "answer": "const"
+      },
+      "question4": {
+        "text": "Which method is used to convert a JSON object to a string?",
+        "options": ["JSON.stringify()", "JSON.parse()", "JSON.convert()"],
+        "answer": "JSON.stringify()"
+      }
+    }
+  }
+  

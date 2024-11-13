@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sign-up Form -->
+  <div id="signupForm">
+    <h2>Sign Up</h2>
+    <input type="email" id="signupEmail" placeholder="Email">
+    <input type="password" id="signupPassword" placeholder="Password">
+    <button onclick="signup()">Sign Up</button>
+  </div>
+
+  <!-- Login Form -->
+  <div id="loginForm">
+    <h2>Login</h2>
+    <input type="email" id="loginEmail" placeholder="Email">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <!-- Quiz Section (hidden until login) -->
+  <div id="quizApp" style="display: none;">
+    <h2>Quiz</h2>
+    <ul id="quizList"></ul>
+    <button onclick="submitQuiz()">Submit Answers</button>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <!-- Include Firebase and app.js -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
